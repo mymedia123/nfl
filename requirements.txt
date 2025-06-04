@@ -1,5 +1,45 @@
-fastapi==0.103.1
-uvicorn==0.23.2
-httpx==0.24.1
-python-dotenv==1.0.0
-pydantic==2.3.0
+# Web Framework and ASGI Server
+fastapi
+uvicorn
+
+# HTTP Client
+httpx
+
+# Environment Variables
+python-dotenv
+
+# Data Validation
+pydantic
+
+# Date/Time Handling
+python-dateutil
+
+# Async Support
+aiohttp
+asyncio
+
+# JSON Processing
+orjson
+
+# Cache Management
+cachetools
+
+# Type Hints
+typing-extensions
+
+# OpenAI API Integration
+openai
+
+# Development Tools
+pytest
+pytest-asyncio
+black
+isort
+flake8
+
+# Documentation
+starlette # Required by FastAPI for docs
+python-multipart # Required for form data processing
+
+# Production
+gunicorn # Production server
